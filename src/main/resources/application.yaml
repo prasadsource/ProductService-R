@@ -16,7 +16,7 @@ spring:
   config:
     import: configserver:${CONFIG_SERVER_URL:http://localhost:9296}
 
-#eureka:
+##eureka:
 #  instance:
 #    prefer-ip-address: true
 #  client:
